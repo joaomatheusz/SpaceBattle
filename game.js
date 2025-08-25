@@ -14,8 +14,8 @@ const sons = {
 };
 
 for (let i = 0; i < 5; i++) {
-    sons.tiro.push(new Audio('sounds/laser.wav'));
-    sons.spawn.push(new Audio('sounds/spawn.mp3'));
+    sons.tiro.push(new Audio('laser.wav'));
+    sons.spawn.push(new Audio('spawn.mp3'));
 }
 
 let indiceSomTiro = 0;
@@ -767,5 +767,6 @@ window.addEventListener('resize', () => { canvas.width = innerWidth; canvas.heig
 
 elementoPontuacaoGrande.style.display = 'none';
 labelPontos.style.display = 'none';
+
 
 iniciar();
